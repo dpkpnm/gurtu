@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>note</title>
+    <script type="module" src="/main.js" defer></script>
+    <style>
+      body {
+        background: #2d2a2e;
+        overflow: hidden;
+      }
+      #bullet {
+        font-size: 28px;
+        color: #c7c7c7;
+        width: 24px;
+        text-align: right;
+        padding-right: 8px;
+      }
+      #note {
+        background: transparent;
+        border: 0;
+        outline: 0;
+        font-size: 24px;
+        color: #c7c7c7;
+        flex-grow: 1;
+      }
+      #wrapper {
+        color: #c7c7c7;
+        padding: 4px 16px;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="bullet">.</div>
+      <input id="note" autofocus placeholder="type note" />
+    </div>
+  </body>
+</html>
